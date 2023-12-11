@@ -44,7 +44,7 @@ function keyDownHandler(key) {
     return;
   }
 
-  // если нажата + - / X % +/-
+  // если нажата + - / X +/-
   if(action.includes(key)) {
     sign = key;
     number.textContent = a + sign;
@@ -75,9 +75,6 @@ function keyDownHandler(key) {
         }
         a = a / b;
         break;
-      case '%':
-        a = b / 100;
-        break;
       case '+/-':
         a = -a;
         break;
@@ -85,15 +82,7 @@ function keyDownHandler(key) {
     finish = true;
     number.textContent = a;
     console.log(a, b, sign);
-  } else if(key === '%') {
-    if(b == '') {
-      a = a / 100;
-      number.textContent = a;
-    } else {
-      b = a * b / 100;
-      number.textContent = b;
-    }
-  }
+  } 
 }
 
 container.addEventListener('click', function(evt) {

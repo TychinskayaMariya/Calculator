@@ -4,9 +4,9 @@
   margin: 100px auto;
   width: 540px;
   height: 540px;
-  border: 3px solid rgba(0, 0, 0, 1);
+  border: 3px solid rgb(0, 0, 1);
   border-radius: 30px;
-  background: rgba(23, 42, 45, 1);
+  background: rgba(243, 240, 240);
   color: #fff;
   font-family: 'Britannic';
   font-weight: 800;
@@ -31,14 +31,14 @@
   display: flex;
   align-items: center;
   text-align: right;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .container {
   margin: 0 auto;
   width: 507px;
   height: 351px;
-  background-color: rgba(3, 73, 69, 1);
+  background-color: rgb(62, 87, 85);
   border: 2px solid rgba(0, 0, 0, 1);
   border-radius: 40px;
   display: flex;
@@ -48,7 +48,7 @@
 .container__centr {
   display: grid;
   grid-template-areas: 
-  "btn_ac btn_plus-minus btn_percent"
+  "btn_ac btn_plus-minus br"
   "btn_seven btn_eight btn_nine"
   "btn_four btn_five btn_six"
   "btn_one btn_two btn_three"
@@ -63,7 +63,7 @@
 .container__right {
   min-width: 132px;
   height: 351px;
-  background: rgba(28, 129, 158, 0.3);
+  background: rgba(8, 39, 47, 0.3);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 38px;
   display: flex;
@@ -75,7 +75,7 @@
 .btn {
   width: 81px;
   height: 51px;
-  background: rgba(12, 90, 103, 1);
+  background: rgb(5, 41, 47);
   border-radius: 30px;
   text-align: center;
   line-height: 53px;
